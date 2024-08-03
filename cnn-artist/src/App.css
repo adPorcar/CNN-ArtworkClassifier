@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+html {
+  font-family: 'Luxurious Roman', system-ui;
+  scroll-behavior: smooth;
+  color: #FDC323; /* Cambia el color del texto */
+}
+
+body {
+  background: #16151562;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #FDC323; /* Cambia el color del texto */
+}
+
+.background {
+  background-image: url('/public/creation-of-adam.jpg'); 
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
