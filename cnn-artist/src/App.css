@@ -15,7 +15,7 @@
 html {
   font-family: 'Luxurious Roman', system-ui;
   scroll-behavior: smooth;
-  color: #FDC323; /* Cambia el color del texto */
+  color: whitesmoke; /* #FDC323 */ 
 }
 
 body {
@@ -23,7 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  color: #FDC323; /* Cambia el color del texto */
+  color: whitesmoke; /* #D9D140 */
 }
 
 .background {
@@ -44,4 +44,8 @@ body {
   justify-content: center;
   height: 100%;
   text-align: center;
+}
+
+.header-title {
+  color: #FFC52D;
 }
